@@ -6,5 +6,6 @@ module.exports = {
   $clearReactions[$channelID;$messageID;🕑]
   $eval[$message]
   $addCmdReactions[🕑]
+  $onlyForIDs[$clientOwnerIDs[;];❌ Acesso Negado. {reply:$messageID:true}]
   `
 }
