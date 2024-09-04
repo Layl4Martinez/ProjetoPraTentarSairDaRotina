@@ -7,5 +7,3 @@ module.exports = {
     $let[user;$findMember[$slashOption[usuário];true;$guildID]]
     `
 }
-
-// $interactionData[customId]
