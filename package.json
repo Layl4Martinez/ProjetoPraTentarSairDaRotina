@@ -13,6 +13,7 @@
     "@akarui/aoi.db": "^2.3.3",
     "@types/node": "^18.0.6",
     "aoi.canvas": "^3.0.10",
-    "aoi.js": "^6.8.5"
+    "aoi.js": "^6.8.5",
+    "dotenv": "^16.4.5"
   }
 }

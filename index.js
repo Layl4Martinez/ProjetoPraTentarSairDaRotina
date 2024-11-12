@@ -1,8 +1,9 @@
 const { AoiClient, LoadCommands } = require("aoi.js");
 const { AoiCanvas } = require("aoi.canvas");
+require('dotenv').config();
 
 const client = new AoiClient({
-  token: "MTI3OTk1Mjk5MjI3NTI2NzY3NQ.Gbfpg0.b0V6Zpy4ILYAvsyXP_s1Cfhzkj5rdhSsGRrCX0",
+  token: process.env.TOKEN,
   prefix: ".",
   intents: ["MessageContent", "Guilds", "GuildMessages"],
   events: ["onMessage", "onInteractionCreate"],
