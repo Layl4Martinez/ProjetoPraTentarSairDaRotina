@@ -4,7 +4,7 @@ module.exports = {
     code: `
     $reply
     Escolha sua bandeira para sua foto de perfil.
-    $attachCanvas[flagAvatar]
+    $attachCanvas[flagAvatar;Avatar.png]
     $drawImage[flagAvatar;$nonEscape[https://raw.githubusercontent.com/Layl4Martinez/ProjetoPraTentarSairDaRotina/refs/heads/main/resource/images/flagRoundedImages/flag1.png];0;0;334;334]
     $drawImage[flagAvatar;$nonEscape[$get[imgSource]];0;0;334;334]
     $createCanvas[flagAvatar;334;334]
