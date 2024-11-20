@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
     name: 'flag',
     aliases: ['bandeira', 'lgbt', 'bandeiras', 'flags', 'decoração'],
     code: `
@@ -15,4 +15,4 @@ module.exports = {
     $let[imgSource;$userAvatar[$findUser[$message[1]]]]
     $clientTyping
     `
-};
+};*/

@@ -3,14 +3,7 @@ module.exports = {
   code: `
   $addCmdReactions[✅]
   $clearReactions[$channelID;$messageID;🕑]
-  $createApplicationCommand[global;stats;description...;true;true;slash]
-  $createApplicationCommand[global;daily;description...;true;true;slash]
-  $createApplicationCommand[global;atm;description...;true;false;slash;[{
-    "name": "usuário",
-    "description": "description...",
-    "required": false,
-    "type": 6
-}]]
+  $createApplicationCommand[global;ping;Mostra o ping atual do bot;true;true;slash]
   $addCmdReactions[🕑]
   $onlyForIDs[$clientOwnerIDs[;];❌ Acesso Negado. {reply:$messageID:true}]
   `

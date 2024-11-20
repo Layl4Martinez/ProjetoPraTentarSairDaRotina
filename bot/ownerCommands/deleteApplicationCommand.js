@@ -3,10 +3,7 @@ module.exports = {
   code: `
   $addCmdReactions[✅]
   $clearReactions[$channelID;$messageID;🕑]
-  $deleteApplicationCommand[global;$getApplicationCommandID[stats;global]]
-  $deleteApplicationCommand[global;$getApplicationCommandID[daily;global]]
-  $deleteApplicationCommand[global;$getApplicationCommandID[imagem;global]]
-  $deleteApplicationCommand[global;$getApplicationCommandID[pix;global]]
+  $deleteApplicationCommand[global;$getApplicationCommandID[atm;global]]
   $addCmdReactions[🕑]
   $onlyForIDs[$clientOwnerIDs[;];❌ Acesso Negado. {reply:$messageID:true}]
   `

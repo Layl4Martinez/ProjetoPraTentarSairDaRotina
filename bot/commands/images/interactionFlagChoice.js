@@ -1,4 +1,4 @@
-module.exports = {
+/*module.exports = {
     type: "interaction",
     prototype: "button",
     code: `
@@ -19,4 +19,4 @@ module.exports = {
     $textSplit[$interactionData[customId];_]
     $interactionUpdate[carregando...]
     `
-}
+}*/

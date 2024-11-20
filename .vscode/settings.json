@@ -1,0 +1,7 @@
+{
+    "workbench.editor.enablePreviewFromCodeNavigation": false,
+    "workbench.editor.scrollToSwitchTabs": false,
+    "workbench.editor.tabSizing": "fit",
+    "workbench.editor.wrapTabs": true,
+    "editor.wordWrap": "on"
+}

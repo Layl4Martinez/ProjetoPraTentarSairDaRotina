@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'stats',
+    name: 'ping',
     type: 'interaction',
     prototype: 'slash',
     code: `

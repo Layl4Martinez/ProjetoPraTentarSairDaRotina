@@ -2,9 +2,10 @@ module.exports = {
     name: 'daily',
     aliases: ['diário'],
     code: `
+    $reply
     $setGlobalUserVar[coins;$get[sumValues];$authorID;user]
     $let[sumValues;$sum[$get[coins];$get[randomValue]]]
-    🪙 Você coletou $get[randomValue] moedas!\n**Volte daqui $discordTimestamp[$sum[$dateStamp;$parseTime[$get[time]]];R] pra coletar novamente!**
+    ⭐ Você coletou $get[randomValue] Estrelas!\n**Volte daqui $discordTimestamp[$sum[$dateStamp;$parseTime[$get[time]]];R] pra coletar novamente!**
     $let[coins;$getGlobalUserVar[coins;$authorID;user]]
     $let[randomValue;$random[$get[lowValue];$get[highValue]]]
   
