@@ -13,11 +13,12 @@ module.exports = {
     $createCanvas[flagAvatar;334;334]
     $let[f;Orgulho]
     $let[imgSource;$getMessageVar[flagImageSourceURL;$get[messageID];messageVar]]
+    $interactionUpdate[Carregando...]
+    $onlyIf[$authorID==$get[userID];<@$authorID>, Você não é o dono dessa interação. Use **.bandeira** se caso quiser usar o comando. {deleteIn:5s}]
     $let[flagID;$splitText[3]]
     $let[userID;$splitText[2]]
     $let[messageID;$splitText[1]]
     $textSplit[$interactionData[values[0]];_]
-    $interactionUpdate[carregando...]
     `
 }
 /*  
